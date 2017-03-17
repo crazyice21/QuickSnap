@@ -103,6 +103,7 @@
     <None Include="packages.config" />
     <None Include="Resources\images\cardsBoard.png" />
     <None Include="Resources\fonts\Chunkfive.otf" />
+    <None Include="Resources\sounds\slap.wav" />
   </ItemGroup>
   <Target Name="CopyFiles">
     <Copy SourceFiles="@(MacLibraryFiles)" DestinationFolder="$(OutDir)" />
